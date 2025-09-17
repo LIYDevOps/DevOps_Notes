@@ -1,0 +1,12 @@
+Server - Servers are the computers that run services to serve the needs of users.(to provide services to other computers). 
+These servers are used for various purposes like hosting websites, running applications, storing and managing data
+Types of servers 
+1. Application Server : (Apache tomcat, F5 Ngnix, IBM Websphere)
+2. Database Server
+3. Email Server
+4. FTP Server
+5. File Server
+6. Proxy Server
+7. Streaming Server
+8. IRC Server (Internet Relay Chat)
+9. FAX Server
