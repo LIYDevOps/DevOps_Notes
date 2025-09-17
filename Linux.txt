@@ -1,0 +1,12 @@
+Linux is an open source operating system wiht high security. Linux is multi user based OS.
+OS(Operating System) - OS is a software that acts as an interface between computer hardware components and the user.
+Types of OS (Windows, linux)
+Main components of OS are 
+1. Kerner - Manages the hardware components. CPU, Memory and perepheral devices. Kernel is the lowest level of OS.
+2. Daemons - manages the background services (sshd, httpd, systemd) that eaither start up during boot or after you log into the desktop. 
+3. Shell - is an environment in which we can run our commands, programms and shell scripts. it gathers input from you and executes programs based on that input. when programm finished executing, it displays that
+            programs output.
+Commands used in Linux/Unix 
+1.System Commands
+2.Hardware Commands
+3.File 
