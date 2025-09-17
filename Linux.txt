@@ -17,6 +17,9 @@ Types of Commands used in Linux/Unix
 8.network Commands
 9.Software Commands
 
+dd - to delete the line
+ctl + l = short cut to clear command
+
 system Commands 
 1.sudo su -(changes from user to root user)
 2.uname - provides the operating system
@@ -33,3 +36,11 @@ system Commands
 12.hostnaectl set-hostnae <name> = to change the server name to hide the IP address
 13.ip addr or ip route or ifconfig or hostname -i = to know the private ip address
 14.whoami - provides details of host
+
+Hardware Commands
+1.lscpu
+2.top = to see the loadusage on cpu
+ctl + c = to exit from the cpu details
+3.free = provides the details of the memeory /free -m/free-g/free -h
+4.df -h = shows the storate information
+5.lsblk  = shows the blockvolume information
