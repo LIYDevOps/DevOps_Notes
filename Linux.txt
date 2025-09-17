@@ -86,5 +86,19 @@ Advanced file commands
 Editors in linux
 vi or vim editor ( vim editor is used to modify the files) it has different modes
 1.command mode
+yy is used to copy the line press yy 
+dd is used to delete the line press dd
+p is used to print the line press p
+to delete 5 line press 5dd
+Cap G is used to move the cusor to last line
+small g is used to move the cusor to first line
+Cap M is used to move to middle line
+numbergg is used to go to specific line
+shift + : set number helps to set the numbers for the file in the editor
+:number is used to move to defined line
+ctrl + u is used to undo
+crtl + r is used to redo
+/ or ? is used to search for a word
+:%s/<serachword>/<replaceword>/g = helps to find the word and replace a word
 2.insert mode
 3.save & quit mode
