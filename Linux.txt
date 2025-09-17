@@ -71,3 +71,20 @@ drw = represents directories
 22.ls -a = to list all the hidden files
 23.ll -t = to list the files based on time
 24.touch .file1 = to create the hidden files
+
+Advanced file commands
+1.mkdir -p folder/folder1 = this command can help to create a folder & folder1 at once. -p is called parenting
+2.cd folder1 = this command helps us to get to this folder if it is available as next step
+3.Cd = cd command helps you to get to root loaction irrespective of location where you are 
+4.cd .. allows us to move one step back
+5.cd ../../ = allows us to move two steps back
+6.cd - = alows us to go to the previous location
+7.cat > file = helps us to edit the file for fist time and replace if data already exists
+8.cat >> file = helps us to append the new data to file
+9.cat -n file = shows the data in lines format
+
+Editors in linux
+vi or vim editor ( vim editor is used to modify the files) it has different modes
+1.command mode
+2.insert mode
+3.save & quit mode
