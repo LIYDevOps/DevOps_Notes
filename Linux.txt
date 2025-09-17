@@ -44,3 +44,30 @@ ctl + c = to exit from the cpu details
 3.free = provides the details of the memeory /free -m/free-g/free -h
 4.df -h = shows the storate information
 5.lsblk  = shows the blockvolume information
+
+File Commands
+1.touch = touch is used to create file
+2.ls = short list of information
+3.ll = long list of information
+4.touch <file1> <file2> <file3> = to create multiple files
+5.touch file{3..8} = creates file3 to file8
+6.rm = to remove the file 
+7.rm <file1> = to remove file1
+8.rm -f <file1> = to remove file1 without permission
+10.rm -f * = to remove all the files without asking permission
+11.rm -f *.txt = to remove all the files with .txt extention
+12.rm -f a* = to remove all the files starting with letter a
+13.mkdir = to create a directory
+-rw = represents files
+drw = represents directories
+14.rmdir = to remove the directory
+15.rmdir* = to remove all the empty directories only
+16.rm-rf (rm = remove, -rf = recursive forcefully)
+17.pwd = shows the present working directory
+18.cd = change directory
+19.touch folder/file1 = to create a file inside the folder
+20.mkdir folder/folder1 = to create a folder1 inside the folder
+21.ls -r = to see all the files in reverse order
+22.ls -a = to list all the hidden files
+23.ll -t = to list the files based on time
+24.touch .file1 = to create the hidden files
