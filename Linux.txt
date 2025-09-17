@@ -100,5 +100,13 @@ ctrl + u is used to undo
 crtl + r is used to redo
 / or ? is used to search for a word
 :%s/<serachword>/<replaceword>/g = helps to find the word and replace a word
+Cap A is used to go end of the line 
+Cap I is used to starting of the line
 2.insert mode
+i is used to go to insert mode
+esc is used to go to command mode
+insert mode is used only to add the data
 3.save & quit mode
+these commands are excecuted in command mode only
+:wq is used to save your progress
+:wq! is used to forcefully quit from file and changes won't be saved
