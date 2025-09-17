@@ -17,3 +17,19 @@ Types of Commands used in Linux/Unix
 8.network Commands
 9.Software Commands
 
+system Commands 
+1.sudo su -(changes from user to root user)
+2.uname - provides the operating system
+2.uname -r - provides the kernel version of OS
+3.uname -a - proivdes the full information related to linux 
+4.uptime - allows us to show from when the server is up
+5.who - proiveds the users details connected with server with IP address
+6.uptime -p - provides the uptime only
+7.date - provides the date in UTC format
+8.timedatectl - to know what time format we are using
+9.timedatectl set-timezone Asia/Kolkata = changes the localtime of server to our timezone.
+10.history - lists the commands that we used.
+11.hostname - provides the details of the hostnameIP
+12.hostnaectl set-hostnae <name> = to change the server name to hide the IP address
+13.ip addr or ip route or ifconfig or hostname -i = to know the private ip address
+14.whoami - provides details of host
