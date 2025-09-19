@@ -93,8 +93,41 @@ gerp -ic "Linux" fileName (c counts the no of time word repeated)
 
 if we are searching for multiple words we need to give -e infront of every word in grep command
 -e refers to echo 
-
 grep -in -e "word1" -e "word2" -e "word3"
+let's know how many lines or words available in a file 
+wc fileName 
+gives number of line, no of words and number of characters 
+wc * to perform for all the files 
+wc -l gives only line numbers
+wc - c prints only characthers 
+wc -w prints the no of words available in the file. 
+
+find and locate : used to search for a file or folder
+
+syntax: find path -name filename
+to search in all the directories
+find . -name filename
+
+find . -user devops
+find . -type -f -user <userName>
+find . -group <groupName>
+find . -perm 777 ( provides the files which are having full permissions )
+
+to update database --> updatedb command is used 
+what is the difference between GREP , FIND and LOCATE 
+
+GREP -> used to search file words in a file 
+
+find and locate are used to search file or folder
+
+find searches based on filepath
+locate searches based on fileName for entire linux database (database need to be updated )
+we can't multi task with locate. 
+
+
+
+
+
 
 
 
