@@ -1,0 +1,10 @@
+1. mkdir -p folder1/folder2 = this command helps us to create folder2 inside folder1 with out having folder1 (-P refers to parenting)
+cat <fileName> command is used to read the data
+cat > <fileName> is used to replace the data with past data
+cat >> <fileName> is used to ammend the data with old data
+cat -n <fileName> is used to read the data with line nubers
+To update the data inside the files cat command can't help to achieve that we have editors
+1.Vi editor or Vim Editor
+2.nano editor
+
+
