@@ -7,4 +7,105 @@ To update the data inside the files cat command can't help to achieve that we ha
 1.Vi editor or Vim Editor
 2.nano editor
 
+vim <fileName> helps to create a file and opens with command mode if nofile exists.
+i keyword helps us to move to insert mode
+esc helps us to move to command mode
+:wq helps us to save and exit
+cp <fileName> <file2> helps us to copy the details of fileName to file2
+cp sourcefile desitantionfile is the command structure
+if any data is availble in destinationfile it will be overridded
+cat sourcefile >> destinationfile helps to add the data to destinationfile without overridding
+>> is used to append the data. 
+cp sourceFile sourceFile2 DestinationFile command is used to copy two files to destinationfile
+mv command is used to move the files
+mv sourcelocation destinationlocation
+this command also used to rename the files or folders
+
+File Permissions 
+read = 4
+write = 2
+excecute = 1 
+Numbering format for rwx permissions 
+chmod command is used to change the file permissions 
+chmod 777 gives the full permissions to file. 
+
+10 placevalues will be available before any file which represents below
+1 place value represents the folder or file (d or -) - represents normal file and d represents folder
+next 9 places represents user(---) group(---) and other users(---)
+
+first 3 values are related to user Next 3 belong to group and next 3 belong to others
+few sample commans to change file permissions 
+chmod 777 fileName1 
+in the above command user has 7(rwx = 4+2+1) group has 7(rwx = 4+2+1) and others has 7(rwx = 4+2+1)
+
+to know the list of user below command is used 
+cat /etc/passwd is used to find the list of users 
+cat -n /etc/passwd is used to show the list of users with line numbers 
+there is another command which can also provide list of users
+getent passwd provides the list of users
+
+useradd <username> command is used to add new user to the server
+to find if user is created or not we can check wiht id <userName> command
+getent passwd | grep <userName> also helps us to hilight the user available in the list
+getent group command is used to view the groups
+cat /etc/group command is also used to find the list of groups
+
+userdel <userName> -r is used to delete the user ( -r is recursive )
+to set password to user we need to below this command
+passwd <userName> 
+
+if you are switching from user to user you need to enter password. root user can login into any user without password.
+
+genent group command also helps to view the list of groups 
+groupadd <groupName> creates a group
+usermod -aG <groupName> <userName> helps us to add user into group. 
+at a time we can add only oneperson at a time. 
+
+getent group | grep <userName> helps us to know if he is available in group or not
+id <userName> helps us to know the details related to user. 
+
+gpasswd -d <userName> <groupName>
+
+chown <ownerName> <fileName>
+chgrp <groupName> <fileName>
+
+chown <ownerName>:<groupName> <fileName1><fileName2>
+
+to change for entire files 
+chown <ownerName>:<groupName> * 
+
+chown <ownerName>:<groupName> folder1 will change only for folder not files inside the folder
+chown <ownerName>:<groupName> folder1 -R will change for both files and folder 
+chown <ownerName>:<groupName> folder1/* will change only for the files inside the folder. 
+
+find commands/search commands
+GREP : Global regular expression print  it is used to search for a word in a file 
+
+syntax : grep "word" fileName
+
+examples : grep "linux" DevOps
+
+to know the line numbers 
+grep -n "linux" fileName
+
+grep -in "Linux" fileName (-i adds case sensitvie)
+gerp -ic "Linux" fileName (c counts the no of time word repeated)
+
+if we are searching for multiple words we need to give -e infront of every word in grep command
+-e refers to echo 
+
+grep -in -e "word1" -e "word2" -e "word3"
+
+
+
+
+
+
+
+
+
+
+
+
+
 
