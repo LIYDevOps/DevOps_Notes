@@ -14,3 +14,6 @@ git add * is used to add all files and folders
 git add . is used to add all files , folders and hidden files and folders also
 
 git commit . -m "commiting all the files" : helps us to commit all the files which require commit
+
+git config user.name : helps to add our name to changes
+git config user.email : helps to add our email to changes
