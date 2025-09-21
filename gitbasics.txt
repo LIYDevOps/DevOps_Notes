@@ -13,3 +13,4 @@ git log helps to view the list of commits maded on that file (history tracking)
 git add * is used to add all files and folders
 git add . is used to add all files , folders and hidden files and folders also
 
+git commit . -m "commiting all the files" : helps us to commit all the files which require commit
