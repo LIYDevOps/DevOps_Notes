@@ -17,3 +17,9 @@ git commit . -m "commiting all the files" : helps us to commit all the files whi
 
 git config user.name : helps to add our name to changes
 git config user.email : helps to add our email to changes
+
+
+git restore --staged <fileName>
+git rm --cached <fileName> 
+
+the above commands are used to untrack the files from staging state. 
