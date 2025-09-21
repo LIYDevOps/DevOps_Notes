@@ -1,0 +1,15 @@
+git --version : helps to view the version of the file
+git status : helps us to view the status of the files
+git add : helps to add the files to tracked list
+git add * : helps to add all the files to tracked list
+git add file1 file 2 : helps to add multiple files at once to tracked list
+
+Tracking the files helps us to view the changes in the file. 
+from untracked files we can't find if the data is added or not. 
+
+git show <commit id> helps to view the details modified during the commit
+git log helps to view the list of commits maded on that file (history tracking)
+
+git add * is used to add all files and folders
+git add . is used to add all files , folders and hidden files and folders also
+
