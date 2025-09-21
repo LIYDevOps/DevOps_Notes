@@ -40,3 +40,19 @@ how to find the number of commits made to file ?
 
 git log --follow --all <fileName>
 
+git log -1
+git log --stat allow us to view the changes on the file. 
+
+can i chanage author name for existing commit ? 
+yes we can. but with conditions. 
+we can chane the author and commit message to the lates one only. 
+
+git commit --amend --author "user <user@email.com>" 
+
+git commit --amend -m "this is my lates message"
+
+In git we have one benifit 
+
+we can add all the files in staging state to lates commit message. 
+
+git commit --amend --no-edit
