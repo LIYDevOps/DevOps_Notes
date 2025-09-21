@@ -22,4 +22,5 @@ git config user.email : helps to add our email to changes
 git restore --staged <fileName>
 git rm --cached <fileName> 
 
-the above commands are used to untrack the files from staging state. 
+the above commands are used to untrack the files from staging state.
+git pull allows to download the lates respository
