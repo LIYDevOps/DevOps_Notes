@@ -30,3 +30,4 @@ example : A company has 60 files. manager asked to commit only 55 files and aske
 
 status : git ignores the files inside the .gitignore for adding or commiting the changes 
 
+git show <commitId> --name-only
