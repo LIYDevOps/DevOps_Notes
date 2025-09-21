@@ -31,3 +31,12 @@ example : A company has 60 files. manager asked to commit only 55 files and aske
 status : git ignores the files inside the .gitignore for adding or commiting the changes 
 
 git show <commitId> --name-only
+
+the commaond allows us to view the file name for the commit message
+
+git log -n : this command helps us to view the last n commits
+
+how to find the number of commits made to file ? 
+
+git log --follow --all <fileName>
+
