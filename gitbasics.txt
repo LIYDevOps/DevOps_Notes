@@ -23,13 +23,10 @@ git restore --staged <fileName>
 git rm --cached <fileName> 
 
 the above commands are used to untrack the files from staging state.
-<<<<<<< HEAD
 
 example : A company has 60 files. manager asked to commit only 55 files and asked to ignore 5 files how it can be done using single command
     step 1 : move the 5 files to .gitignore
     step 2 : commit all the files. 
 
 status : git ignores the files inside the .gitignore for adding or commiting the changes 
-=======
-git pull allows to download the lates respository
->>>>>>> 9653fee96e352b55c6083fe265d87c354fe4e67b
+
